@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>A short quiz</title>
+   <link rel=stylesheet type=text/css href='{{ url_for('static',filename='style_lulu.css')}}'>
+</head>
+
+<body>
+    <div class="page">
+        <h1>A short person</h1>
+
+        <div class="metanav">
+            <h3>You will be aske a series of questions. Please answer them to te
+            best of your ability.</h3>
+
+            <form action='index_lulu' id='userinfoform_lulu' method='post'
+            name="userinfoform_lulu">
+                <p>Name: <input name='name_lulu' type='text'></p>
+
+                <p>Age: <input name='age_lulu' type='text'></p>
+
+                <p><input type='submit' value='Submit_lulu'></p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
