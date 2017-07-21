@@ -1,2 +1,8 @@
 flask
-speech_recognition
+speechrecognition
+pocketsphinx
+uwsgi
+Flask-uWSGI-WebSocket
+numpy
+gevent
+colorama
